@@ -1,0 +1,140 @@
+body {
+  background-color: #7E7E7E;
+  margin: 0;
+  padding: 0;
+  font-family: 'Signika', sans-serif;
+}
+main {
+  background-color: #202020;
+  color: #FFFFFF;
+  width: 40%;
+  height: auto;
+  padding: 2.5em;
+  margin: 20vh auto;
+  box-shadow: 0 2px 4px 0 #000000, 0 4px 8px 0 #000000;
+}
+
+img {
+  min-width: 128px;
+  min-height: 128px;
+  max-width: 128px;
+  max-height: 128px;
+  box-shadow: 0 2px 4px 0 #000000, 0 4px 8px 0 #000000;
+}
+
+nav > .navbar {
+  top: 0;
+  position: fixed;
+  background-color: #202020;
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+nav > .navbar > h2 {
+  line-height: 75px;
+  color: #FFFFFF;
+  margin: 0 0 0 1vw;
+  display: inline;
+}
+
+.btn {
+  text-align: left;
+  padding: 8px;
+  margin-top: 10px;
+  background: #2E8B57;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px 0 #000000, 0 4px 8px 0 #000000;
+}
+.btn:hover{
+  background: #5fc68c;
+}
+
+.blue_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #3b7091;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 #000000, 0 4px 8px 0 #000000;
+}
+
+.blue_btn:hover {
+  background: #509bc9;
+}
+
+.red_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #b92d2a;
+  box-shadow: 0 2px 4px 0 #000000, 0 4px 8px 0 #000000;
+}
+
+.red_btn:hover {
+  background: #ef4543;
+}
+
+.ntc {
+  margin: 0 auto 2em auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  width: 75%;
+  text-align: center;
+}
+
+.error {
+  margin: 0 auto 2em auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: #b92d2a;
+  background: #f2c6c6;
+  border: 1px solid #b92d2a;
+  width: 75%;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  background-color: #202020;
+  height: auto;
+  width: 100%;
+  display: block;
+  bottom: 0;
+}
+
+footer h2 {
+  display: inline;
+  line-height: 75px;
+  color: #FFFFFF;
+  margin: 0 0 0 1vw;
+}
+
+@media only screen and (max-width: 1100px) {
+  main {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav > .navbar > h2 {
+	text-align: center;
+	font-size: 100%;
+	margin: 0 0 0 7.5vw;
+  }
+  footer > h2 {
+	text-align: center;
+	font-size: 100%;
+	margin: 0 0 0 2.5vw;
+  }
+  main {
+	width: 60%;
+  }
+}
