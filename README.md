@@ -1,6 +1,6 @@
 # CRUD
 
-This CRUD is made a practice for school
+This CRUD is made as practice for school
 
 ## Assignment
 
